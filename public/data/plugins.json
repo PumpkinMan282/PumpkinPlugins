@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pumpkin-core",
+    "name": "PumpkinCore",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinCore-1.0.jar",
+    "downloadPath": "downloads/PumpkinCore-1.0.jar",
+    "guidePath": "guides/pumpkin-core.md",
+    "depends": [],
+    "summary": ""
+  },
+  {
+    "id": "pumpkin-api",
+    "name": "PumpkinAPI",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinAPI-1.0.jar",
+    "downloadPath": "downloads/PumpkinAPI-1.0.jar",
+    "guidePath": "guides/pumpkin-api.md",
+    "depends": ["PumpkinCore"],
+    "summary": ""
+  },
+  {
+    "id": "pumpkin-abilities",
+    "name": "PumpkinAbilities",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinAbilities-1.0.jar",
+    "downloadPath": "downloads/PumpkinAbilities-1.0.jar",
+    "guidePath": "guides/pumpkin-abilities.md",
+    "depends": [],
+    "summary": "Class/hero system with ability combos, cooldowns, and upgrade paths."
+  },
+  {
+    "id": "pumpkin-artifacts",
+    "name": "PumpkinArtifacts",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinArtifacts-1.0.jar",
+    "downloadPath": "downloads/PumpkinArtifacts-1.0.jar",
+    "guidePath": "guides/pumpkin-artifacts.md",
+    "depends": [],
+    "summary": "Progression-based artifacts that level up through gameplay and unlock passive/active abilities."
+  },
+  {
+    "id": "pumpkin-biomes-plus",
+    "name": "PumpkinBiomes+",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinBiomesPlus-1.0.jar",
+    "downloadPath": "downloads/PumpkinBiomesPlus-1.0.jar",
+    "guidePath": "guides/pumpkin-biomes-plus.md",
+    "depends": [],
+    "summary": "Biome-based player effects (buffs, hazards, visuals) that change as you explore."
+  },
+  {
+    "id": "custom-enchantments-plus",
+    "name": "CustomEnchantments+",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinEnchants+.jar",
+    "downloadPath": "downloads/PumpkinEnchants+.jar",
+    "guidePath": "guides/custom-enchantments-plus.md",
+    "depends": [],
+    "summary": "Custom enchantments with scalable levels, triggers (combat/mining/damage), and synergy combos."
+  },
+  {
+    "id": "pumpkin-seasons",
+    "name": "PumpkinSeasons",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinSeasons-1.0.jar",
+    "downloadPath": "downloads/PumpkinSeasons-1.0.jar",
+    "guidePath": "guides/pumpkin-seasons.md",
+    "depends": [],
+    "summary": "Season cycle (spring/summer/fall/winter) that modifies gameplay, environment, and effects."
+  },
+  {
+    "id": "pumpkin-world-events",
+    "name": "PumpkinWorldEvents",
+    "version": "1.0",
+    "apiVersion": "1.20",
+    "filename": "PumpkinWorldEvents-1.0.jar",
+    "downloadPath": "downloads/PumpkinWorldEvents-1.0.jar",
+    "guidePath": "guides/pumpkin-world-events.md",
+    "depends": [],
+    "summary": "Server-wide world events (meteors, invasions, bosses) that broadcast and impact large areas."
+  }
+]
