@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pumpkin — Contact</title>
+    <meta name="description" content="Contact Pumpkin (MrPumpkin)." />
+    <meta name="view-transition" content="same-origin" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/shared.js"></script>
+    <script defer src="assets/js/contact.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header>
+      <div class="container">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="index.html">
+            <span class="brand-text">
+              <span class="brand-name">Pumpkin</span>
+              <span class="brand-sub">Contact</span>
+            </span>
+          </a>
+          <div class="nav-links">
+            <a data-nav href="index.html">Home</a>
+            <a data-nav href="plugins.html">Plugins</a>
+            <a data-nav href="contact.html">Contact</a>
+            <a data-nav href="references.html">References</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <div class="container">
+        <section class="hero" style="padding-top:8px">
+          <div class="kicker"><span class="dot" aria-hidden="true"></span> Support / commissions</div>
+          <h1 style="margin-top:10px">Contact</h1>
+          <p class="lead" style="max-width:85ch">
+            Send a message and I’ll get back to you. Please include a way to contact you back (Discord username, email, etc.).
+          </p>
+
+          <div class="hero-grid">
+            <div class="card pad">
+              <form id="form">
+                <label>
+                  Your name *
+                  <input id="name" class="input" autocomplete="name" required />
+                </label>
+                <label>
+                  Discord username or other contact *
+                  <input id="contact" class="input" autocomplete="off" required placeholder="e.g. MrPumpkin#1234, @name, email, etc." />
+                </label>
+                <label>
+                  Subject (optional)
+                  <input id="subject" class="input" autocomplete="off" />
+                </label>
+                <label>
+                  Message *
+                  <textarea id="message" class="input" required></textarea>
+                </label>
+                <input id="website" class="input" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px; width:1px; height:1px" aria-hidden="true" />
+                <button id="sendBtn" class="btn primary" type="submit">Send message</button>
+                <div class="hint">
+                  Don’t include passwords or anything sensitive. Messages are delivered into Discord.
+                </div>
+              </form>
+              <div id="toast" aria-live="polite"></div>
+            </div>
+
+            <div class="card art">
+              <div class="art-inner">
+                <div>
+                  <div class="kicker"><span class="dot" aria-hidden="true"></span> What to include</div>
+                  <p class="lead" style="margin:10px 0 0">
+                    For faster help, add:
+                  </p>
+                  <ul style="margin:10px 0 0 1.1em; color:rgba(245,242,248,.80); line-height:1.6">
+                    <li>Which plugin + version</li>
+                    <li>Your server version (Minecraft 1.20.x?)</li>
+                    <li>What you expected vs. what happened</li>
+                    <li>Any relevant console logs</li>
+                  </ul>
+                </div>
+                <div style="display:grid; gap:10px">
+                  <div class="stat"><b>Name</b><span>So I know who’s messaging</span></div>
+                  <div class="stat"><b>Contact</b><span>Discord username or email</span></div>
+                  <div class="stat"><b>Details</b><span>Plugin, version, logs</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-row">
+          <span>© <span data-year></span> Pumpkin</span>
+          <span><a href="plugins.html">Plugins</a> · <a href="references.html">References</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
